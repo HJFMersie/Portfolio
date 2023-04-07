@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mt Portfolio</title>
+    <link rel = "stylesheet" href ="CSS/style.css"/>
+</head>
+        
+<body>
+
+<header>
+  <h1 class = "header"> Hosea Mersie</h1>
+</header>
+
+<nav class = "navbar">
+        
+  <a href ="index.html"> Home</a>
+  <a href = "hobbies.html"> Hobbies</a>
+  <a href = "projecten.html">Projecten</a>
+  <a href = "contact.html">Contact</a>
+
+</nav> 
+
+<main>
+<form class="container-2" action="contact.bedankt.html">
+    <h2>Contact</h2>
+
+    <label class="label" for="fname">Naam</label>
+    <input type="text" id="fname" name="fname" required>
+   
+
+    <label for="city">Woonstad</label>
+    <input type="text" id="Woonstad" name= "Woonstad">
+
+    <label for="email">E-mail</label>
+    <input type="email" id="email" name="email" placeholder="0981461@hr.nl">
+
+    <label for="date">Datum</label>
+    <input type="date" id="date" name="date">
+
+    <section class="onderwerp">
+      <p class="p-a">Onderwerp</p>
+    </section>
+
+    <label for="onderwerp">Ik heb een vraag over</label>
+    <select id="onderwerp" name="onderwerp">
+      <option selected disabled value="none">Kies een onderwerp</option>
+      <option value="PInfo">Persoonlijke informatie</option>
+      <option value="Hobbies">Hobbies</option>
+      <option value="school">school</option>
+    </select>
+
+    <label for="vragen">Mijn vraag is</label>
+      <input type="text" id="vragen" name="vragen">
+
+    <Section>
+      <p class="p-a">Voorkeuren</p>
+    </Section>
+
+    <input type="checkbox" id="voorwaarden" value="voorwaarden" required>
+    <label for="voorwaarden">Ik ga akkoord met de voorwaarden</label>
+
+    <button type="submit">Versturen</button>
+
+   
+</form>
+</main>
+
+<footer class = "footer">
+  webpage by: Hosea Mersie
+</footer>  
+
+</body>
+</html>
