@@ -1,0 +1,242 @@
+body {
+  font-family: Geneva, Verdana, sans-serif;
+  color: black;
+}
+
+.container-1{
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
+  align-items: center;
+  border: 1px solid green;
+  border-radius: 10px;
+  overflow: hidden;
+  height: auto;
+  margin: 5vw;
+  background-color: beige;
+  padding: 2vw;
+  text-align: left;
+}
+
+.flex {
+  font-size: 1.25rem;
+}
+
+
+.navbar {
+  position:center;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  border: 1px solid green;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  background-color: beige;
+}
+
+
+.navbar a {
+  padding: 8px;
+  flex: 1;
+  text-align:space-around;
+  text-decoration: none;
+  color: black;
+  font-size: 1.1em;
+  transition-delay: 0.4s ease-out;
+  margin: auto;
+  
+}
+  
+
+.navbar a:hover {
+    background-color: lightgreen;
+}
+  
+.header {
+  display: flex;
+  justify-content: center;
+  border: 1px solid green;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 2vw;
+  margin-left: 5vw;
+  margin-right: 5vw;
+
+}
+
+.oak { 
+  width: 90vw;
+  height: 65vh;
+}
+
+h2 { 
+  text-align: center;
+}
+
+.profilepicture {
+  height: 40vh;
+  width: auto;
+  border: 1px solid green;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+a:hover {
+  color: green; 
+}
+
+.footer {
+  border: 1px solid green;
+  text-align: center;
+  width: auto;
+  overflow: hidden;
+  padding: 1vw;
+  margin: 5vw;
+  border-radius: 10px;
+  background-color: beige;
+}
+
+input {
+  font-size: 1em;
+}
+
+.p-a {
+  font-weight: bolder;
+  font-size: 1rem;
+}
+
+
+.container-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
+  align-items: center;
+  border: 1px solid green;
+  border-radius: 10px;
+  overflow: hidden;
+  height: auto;
+  margin: 5vw;
+  background-color: beige;
+  padding: 2vw;
+  text-align: left;
+}
+
+.container-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
+  align-items: center;
+  border: 1px solid green;
+  border-radius: 10px;
+  overflow: hidden;
+  height: auto;
+  margin: 5vw;
+  background-color: beige;
+  padding: 2vw;
+  text-align: left;
+}
+
+.container-4 {
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
+  align-items: center;
+  border: 1px solid green;
+  border-radius: 10px;
+  overflow: hidden;
+  height: auto;
+  margin: 5vw;
+  background-color: beige;
+  padding: 2vw;
+  text-align: left;
+}
+
+.container-5 {
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
+  align-items: center;
+  border: 1px solid green;
+  border-radius: 10px;
+  overflow: hidden;
+  height: auto;
+  margin: 5vw;
+  background-color: beige;
+  padding: 2vw;
+  text-align: left;
+}
+
+.footballpicture {
+  height: 35vh;
+  width:auto;
+  border: 1px solid green;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.readingpicture {
+  height: 35vh;
+  width:auto;
+  border: 1px solid green;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.snowboardpicture {
+  height: 35vh;
+  width:auto;
+  border: 1px solid green;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.klitterwatch {
+  height: 35vh;
+  width:auto;
+  border: 1px solid green;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.webservice {
+  height: 35vh;
+  width:auto;
+  border: 1px solid green;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* for telephones*/
+@media (max-width: 480px) {
+  body{ 
+    background-color: yellow;
+  }
+  .navbar {
+    flex-direction: column;
+  }
+}
+
+/* for tablets*/
+@media (min-width: 481px) and (max-width: 767px) {
+  body{
+    background-color: blue;
+    
+  }
+}
+
+/* for laptops*/
+@media (min-width: 1024px) and (max-width: 1250px) {
+  body {
+   background-color: green;
+  }
+}
+
+/* for wider monitors*/
+@media (min-width: 1281px) {
+  body{
+    background-color: rgb(222, 222, 191);
+  }
+
+}
